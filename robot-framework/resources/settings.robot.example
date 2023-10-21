@@ -1,0 +1,17 @@
+*** Variables ***
+${SeleniumTimeout}                         15
+${Browser}                                 Chrome
+${WindowHeight}                            1000
+${WindowWidth}                             1000
+
+# Environment Variables
+${baseURL}                                 https://www.saucedemo.com/
+
+${Standard_User}                           standard_user
+${LockedOut_User}                          locked_out_user
+${Problem_User}                            problem_user
+${PerformanceGlitch_User}                  performance_glitch_user
+${Error_User}                              error_user
+${Visual_User}                             visual_user
+
+${Default_PW}                              secret_sauce
