@@ -70,7 +70,7 @@ Log into Sauce Demo Site
 
 Login as Standard User
     Log into Sauce Demo Site    ${Standard_User}               ${Default_PW}
-    ##Create PO and checks for logged in state
+    inventoryPO.Verify Expected Elements appear on Inventory Page
 
 Attempt to Login as Locked Out User
     Enter Username into User Name field                        ${LockedOut_User}
@@ -80,16 +80,16 @@ Attempt to Login as Locked Out User
 
 Login as Problem User
     Log into Sauce Demo Site    ${Problem_User}                ${Default_PW}
-    ##Create PO and checks for logged in state
+    inventoryPO.Verify Expected Elements appear on Inventory Page
 
 Login as Performance Glitch User
     Log into Sauce Demo Site    ${PerformanceGlitch_User}      ${Default_PW}
-    ##Create PO and checks for logged in state
+    inventoryPO.Verify Expected Elements appear on Inventory Page
 
 Login as Error User
     Log into Sauce Demo Site    ${Error_User}                  ${Default_PW}
-    ##Create PO and checks for logged in state
+    inventoryPO.Verify Expected Elements appear on Inventory Page
 
 Login as Visual User
     Log into Sauce Demo Site    ${Visual_User}                 ${Default_PW}
-    ##Create PO and checks for logged in state
+    inventoryPO.Verify Expected Elements appear on Inventory Page
