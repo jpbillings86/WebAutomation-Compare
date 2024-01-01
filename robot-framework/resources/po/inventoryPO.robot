@@ -4,7 +4,7 @@ Resource    ../settings.robot
 Resource    ../resources.robot
 
 *** Variables ***
-
+${inventoryPage_}
 *** Keywords ***
 Verify Expected Elements appear on Inventory Page
     topBarPO.Verify Expected Elements appear on Top Bar

@@ -36,7 +36,7 @@ Verify Missing username error message disappear when site is reloaded
     loginPO.Click Login button
     loginPo.Verify Username is required error message appears
     Reload Page
-    Verify Expected Elements appear on Login Page
+    loginPo.Verify Expected Elements appear on Login Page
 
 Verify Missing password error message disappear when site is reloaded
     [Tags]    Regression    Login 
@@ -44,7 +44,7 @@ Verify Missing password error message disappear when site is reloaded
     loginPO.Click Login button
     loginPo.Verify Password is required error message appears
     Reload Page
-    Verify Expected Elements appear on Login Page
+    loginPo.Verify Expected Elements appear on Login Page
 
 Verify username and password not matching error message disappear when site is reloaded
     [Tags]    Regression    Login
@@ -53,10 +53,10 @@ Verify username and password not matching error message disappear when site is r
     loginPO.Click Login button
     loginPO.Verify Credientials do not match error message appears
     Reload Page
-    Verify Expected Elements appear on Login Page
+    loginPo.Verify Expected Elements appear on Login Page
 
 Verify locked out user error message disappear when site is reloaded
     [Tags]    Regression    Login 
     loginPO.Attempt to Login as Locked Out User
     Reload Page
-    Verify Expected Elements appear on Login Page
+    loginPo.Verify Expected Elements appear on Login Page
