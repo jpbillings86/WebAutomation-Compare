@@ -2,8 +2,9 @@
 Library            Selenium2Library
 Resource           ../resources/resources.robot
 
-Test Setup         Launch Site
-Test Teardown      Close All Browsers
+Suite Setup        Launch Browser
+Test Setup         Navigate to Page
+Suite Teardown      Close All Browsers
 
 *** Test Cases ***
 Login as a valid user
@@ -26,6 +27,10 @@ Attempt to login with an invalid password
     loginPO.Verify Invalid Password Error Appears
 
 *** Keywords ***
-Launch Site
+Launch Browser
     Open Browser                https://practice.expandtesting.com/login                    Chrome
+
+Navigate to Page
+    Delete All Cookies
+    Go To                       https://practice.expandtesting.com/login
     loginPO.Verify Expected Elements appear on Login Page
