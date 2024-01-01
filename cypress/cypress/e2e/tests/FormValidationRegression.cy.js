@@ -54,25 +54,25 @@ describe('Form Validation for PickUp Date', () => {
     cy.visit('https://practice.expandtesting.com/form-validation')
     formValidationPO.Verify_Expected_Elements_Appear()
     })
-  it('Verify Empty Error message does not appear for PickUP Date with valid input', () => {
+  it('Verify Empty Error message does not appear for PickUp Date with valid input', () => {
      formValidationPO.Enter_PickUpDate('1111-11-11')
      formValidationPO.Click_Register()
      formValidationPO.Verify_Invalid_Enter_PickUpDate_Error_Does_Not_Appear()
   })
-  it('Verify Invalid Error message appears for PickUP Date when Empty', () => {
+  it('Verify Invalid Error message appears for PickUp Date when Empty', () => {
      formValidationPO.Clear_Enter_PickUpDate()
      formValidationPO.Click_Register()
      formValidationPO.Verify_Invalid_Enter_PickUpDate_Error_Appears()
   })
 // TODO: Figure out how to force Cypress to type an invalid input into a Date field
-//  it('Verify Invalid Error message appears for PickUP Date with invalid input', () => {
+//  it('Verify Invalid Error message appears for PickUp Date with invalid input', () => {
 //    formValidationPO.Enter_PickUpDate('11')
 //     formValidationPO.Click_Register()
 //     formValidationPO.Verify_Invalid_Enter_PickUpDate_Error_Appears()
 //  })
 })
 
-describe('Form Validation for PickUp Date', () => {
+describe('Form Validation for Payment Method', () => {
   beforeEach(() => {
     cy.visit('https://practice.expandtesting.com/form-validation')
     formValidationPO.Verify_Expected_Elements_Appear()
