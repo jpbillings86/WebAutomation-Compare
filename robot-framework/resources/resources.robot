@@ -1,7 +1,5 @@
 *** Settings ***
-Resource    settings.robot
+Library    Selenium2Library
 Resource    common.robot
 Resource    po/loginPO.robot
-Resource    po/inventoryPO.robot
-Resource    po/topBarPO.robot
-Resource    po/footerPO.robot
+Resource    po/formValidationPO.robot
