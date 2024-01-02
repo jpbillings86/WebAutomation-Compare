@@ -22,7 +22,7 @@ Verify Expected Elements appear on Login Page
 Login 
     [Arguments]    ${username}    ${password}
     Input Text                     ${LoginPage_Username_textbox}      ${username}
-    Input Text                     ${LoginPage_Password_textbox}      ${password}
+    Input Password                 ${LoginPage_Password_textbox}      ${password}
     Click Button                   ${LoginPage_Login_button}
     Capture Page Screenshot
 
