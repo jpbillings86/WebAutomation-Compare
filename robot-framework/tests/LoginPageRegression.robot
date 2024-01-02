@@ -10,6 +10,7 @@ Suite Teardown      Close All Browsers
 Login as a valid user
     [Tags]    Regression Test    Login
     loginPO.Login        practice       SuperSecretPassword! 
+    securePO.Verify Expected Elements appear on Secure Page
 
 Attempt to login with an invalid username
     [Tags]    Regression Test    Login
