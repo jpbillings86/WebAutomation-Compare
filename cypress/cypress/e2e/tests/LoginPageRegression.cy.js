@@ -1,4 +1,5 @@
 import loginPO from "../../pages/loginPO"
+import securePO from "../../pages/securePO"
 
 describe('Verify Login Page Elements', () => {
     beforeEach(() => {
@@ -16,6 +17,7 @@ describe('Verify Login Page Security', () => {
     it('Login as a valid user', () => {
         loginPO.Verify_Expected_Elements_Appear()
         loginPO.Login('practice','SuperSecretPassword!')
+        securePO.Verify_Expected_Elements_Appear()
     })
     it('Attempt to login with an invalid username', () => {
         loginPO.Verify_Expected_Elements_Appear()
