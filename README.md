@@ -4,4 +4,4 @@ The purpose of this project is to practice and show side by side what various au
 - Robot Framework
 - Playwright
 - Cypress
-- Selenium with Java
+- Capybara/RSpec
