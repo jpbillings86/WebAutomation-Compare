@@ -100,7 +100,7 @@ Verify Invalid Payment Method Error Does Not Appear
     Wait Until Element Is Not Visible                               ${FormValidationPage_PaymentMethod_Invalid_error}
     Capture Page Screenshot
 
-#    //Register
+#Register
 Click Register
     Click Button                     ${FormValidationPage_Register_button}
     Capture Page Screenshot
