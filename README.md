@@ -5,3 +5,4 @@ The purpose of this project is to practice and show side by side what various au
 - Playwright
 - Cypress
 - Capybara/RSpec
+- Java/Selenium
