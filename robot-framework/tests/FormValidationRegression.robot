@@ -49,7 +49,6 @@ Verify Empty Error message does not appear for PickUp Date with valid input
 
 Verify Invalid Error message appears for PickUp Date when Empty
     [Tags]    Regression Test    Form Validation    PickUp Date
-    Log     asdf
     formValidationPO.Clear PickUp Date
     formValidationPO.Click Register
     formValidationPO.Verify Invalid PickUp Date Error Appears
@@ -60,6 +59,7 @@ Verify Invalid Error message appears for PickUp Date with invalid input
     formValidationPO.Click Register
     formValidationPO.Verify Invalid PickUp Date Error Appears
 
+//Payment Method
 Verify Empty Error message does not appear for Payment Method when something is selected
     [Tags]    Regression Test    Form Validation    Payment Method
     formValidationPO.Select Payment Method         cash on delivery 
