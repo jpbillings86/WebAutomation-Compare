@@ -1,6 +1,6 @@
 # Web Automation Compare
 
-This is a personal project to allow me to learn and compare various web automation tools and frameworks. My goal is to solve the exact same problem using various tools that are popular in the web automation world in order to give me an overveiw of the strenghts and weakness of various toolsets. I am also only using tools that are free and can be developed in an IDE such as VS Code or Eclipse.
+This is a personal project to allow me to learn and compare various web automation tools and frameworks. My goal is to solve the exact same problem using various tools that are popular in the web automation world in order to give myself an overveiw of the strengths and weakness of various toolsets. I am also only using tools that are free and can be developed in an IDE such as VS Code or Eclipse.
 
 Note: This experiment will be specific to web automation. I do have plans to do a similar project around API automation. I am also focusing on tools that are not point, click, and record solutions. 
 
@@ -11,7 +11,7 @@ The links below are to the test cases, not just the project file folder. This is
 - Playwright / JS - https://github.com/jpbillings86/WebAutomation-Compare/tree/main/playwright/tests
 - Cypress / JS - https://github.com/jpbillings86/WebAutomation-Compare/tree/main/cypress/cypress/e2e/tests
 - Capybara/RSpec / Ruby - https://github.com/jpbillings86/WebAutomation-Compare/tree/main/capybara/spec/tests
-- Selenium / Java - https://github.com/jpbillings86/WebAutomation-Compare/tree/main/java-selenium/javaSelenium
+- Selenium / Java - https://github.com/jpbillings86/WebAutomation-Compare/tree/main/java-selenium/javaSelenium/src/main/java/tests
 
 ### Planned
 - Selenium / C#
