@@ -59,7 +59,7 @@ Verify Invalid Error message appears for PickUp Date with invalid input
     formValidationPO.Click Register
     formValidationPO.Verify Invalid PickUp Date Error Appears
 
-//Payment Method
+#Payment Method
 Verify Empty Error message does not appear for Payment Method when something is selected
     [Tags]    Regression Test    Form Validation    Payment Method
     formValidationPO.Select Payment Method         cash on delivery 
