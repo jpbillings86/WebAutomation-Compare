@@ -4,6 +4,9 @@ This is a personal project to allow me to learn and compare various web automati
 
 Note: This experiment will be specific to web automation. I do have plans to do a similar project around API automation. I am also focusing on tools that are not point, click, and record solutions. 
 
+- API Comparison Project: https://github.com/jpbillings86/APIAutomation_Compare
+
+
 ## Tools/Frameworks
 The links below are to the test cases, not just the project file folder. This is simply to make it easier to compare the end result (test cases) of each project.
 ### Completed: 
